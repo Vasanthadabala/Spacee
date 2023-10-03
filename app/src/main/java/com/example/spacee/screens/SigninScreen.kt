@@ -19,11 +19,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavHostController
 import com.example.spacee.authentication.SignInState
 
 @Composable
-fun LoginScreen(navController: NavHostController, state : SignInState, onSignInClick : ()-> Unit)
+fun LoginScreen(state : SignInState, onSignInClick : ()-> Unit)
 {
     val context = LocalContext.current
     LaunchedEffect(key1 = state.signInError){

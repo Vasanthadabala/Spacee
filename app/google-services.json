@@ -12,7 +12,12 @@
           "package_name": "com.example.spacee"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1068852784751-e0fla7fdjjpd5ih9r390neee3eb3jgf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBy2QxwzXrkdtHv20M4h_UZYDUJzNQOzMs"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068852784751-e0fla7fdjjpd5ih9r390neee3eb3jgf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

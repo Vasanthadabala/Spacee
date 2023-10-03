@@ -34,16 +34,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import coil.compose.AsyncImage
 import com.example.spacee.R
-import com.example.spacee.authentication.UserData
 import com.example.spacee.navigation.BottomBar
 import com.example.spacee.navigation.Profile
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @ExperimentalMaterial3Api
 @Composable
-fun SettingScreen(navController: NavHostController,userData: UserData) {
+fun SettingScreen(navController: NavHostController) {
     Scaffold(
         topBar = { TopBar(navController = navController) },
         bottomBar = { BottomBar(navController = navController) },
@@ -80,10 +78,9 @@ fun SettingScreen(navController: NavHostController,userData: UserData) {
                                 .size(80.dp),
                             contentAlignment = Alignment.Center
                         ) {
-                            AsyncImage(
-                                model = userData.profilePictureUrl,
-                                contentDescription = "Profile"
-                            )
+                            Image(
+                                painter = painterResource(id = R.drawable.info),
+                                contentDescription = "")
                         }
                         Column(
                             modifier = Modifier.padding(top = 20.dp, start = 10.dp)
