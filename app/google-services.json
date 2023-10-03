@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068852784751",
+    "project_id": "spaceechatapp",
+    "storage_bucket": "spaceechatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068852784751:android:94c2951e86cd920343a79a",
+        "android_client_info": {
+          "package_name": "com.example.spacee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy2QxwzXrkdtHv20M4h_UZYDUJzNQOzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
