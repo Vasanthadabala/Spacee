@@ -55,14 +55,8 @@ android {
 dependencies {
 
     //Firebase
-    implementation("com.firebaseui:firebase-ui-auth:8.0.2")
-    implementation("com.firebaseui:firebase-ui-database:8.0.2")
-    implementation("com.google.firebase:firebase-storage-ktx")
-    implementation("com.google.firebase:firebase-database-ktx")
-    implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
-    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
 
     //Ktor
     implementation("io.ktor:ktor-client-android:2.1.3")
@@ -73,7 +67,7 @@ dependencies {
     implementation("androidx.room:room-ktx:2.5.2")
     implementation("androidx.room:room-runtime:2.5.2")
     kapt("androidx.room:room-compiler:2.5.2")
-    implementation("androidx.compose.runtime:runtime-livedata:1.3.2")
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.2")
 
     //Glide&Coil
     implementation("com.github.bumptech.glide:compose:1.0.0-alpha.1")
@@ -83,7 +77,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.1")
 
     //Material-UI
-    implementation("androidx.compose.material:material:1.5.0")
+    implementation("androidx.compose.material:material:1.5.2")
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")

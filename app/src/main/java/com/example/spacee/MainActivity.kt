@@ -143,13 +143,7 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Settings.route)
                         {
-                            val signedInUser = googleAuthUiClient.getSignedInUser()
-                            if (signedInUser != null) {
-                                SettingScreen(
-                                    navController,
-                                    signedInUser
-                                )
-                            }
+                            SettingScreen(navController)
                         }
                     }
                 }
