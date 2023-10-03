@@ -98,7 +98,6 @@ class MainActivity : ComponentActivity() {
                             }
 
                             LoginScreen(
-                                navController,
                                 state = state,
                                 onSignInClick = {
                                     lifecycleScope.launch {
