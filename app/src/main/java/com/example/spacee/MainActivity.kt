@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     val navController = rememberNavController()
-                    NavHost(navController = navController, startDestination = Login.route)
+                    NavHost(navController = navController, startDestination = Chat.route)
                     {
                         composable(Login.route)
                         {

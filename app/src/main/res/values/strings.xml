@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Spacee</string>
-    <string name="default_web_client_id">1068852784751-e0fla7fdjjpd5ih9r390neee3eb3jgf5.apps.googleusercontent.com</string>
+    <string name="web_client_id">1068852784751-e0fla7fdjjpd5ih9r390neee3eb3jgf5.apps.googleusercontent.com</string>
 </resources>

@@ -66,6 +66,7 @@ dependencies {
     //Room
     implementation("androidx.room:room-ktx:2.5.2")
     implementation("androidx.room:room-runtime:2.5.2")
+    implementation("com.google.firebase:firebase-messaging-ktx:23.2.1")
     kapt("androidx.room:room-compiler:2.5.2")
     implementation("androidx.compose.runtime:runtime-livedata:1.5.2")
 
